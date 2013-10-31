@@ -3,7 +3,14 @@ InMemoryJMS
 
 Inter-Thread communication library confirming to JMS Interface.
 
-<br>
+Features 
+====================
+<ul>
+<li> Full JMS API compliance for Queue / Topic clients including timed receive etc </li>
+<li> Automatic message expiry (slow consumers will not affect the performance) </li>
+<li> Automatic resource clean up (Remove the topic if there are no publisher/subscriber etc) </li>
+</ul>
+
 How to use it
 =============
 <ol>
@@ -20,10 +27,3 @@ How to use it
     </li>
 </ol>
 
-Some of the features 
-====================
-<ul>
-<li> Full JMS API compliance for Queue / Topic clients including timed receive etc </li>
-<li> Automatic message expiry (slow consumers will not affect the performance) </li>
-<li> Automatic resource clean up (Remove the topic if there are no publisher/subscriber etc) </li>
-</ul>
