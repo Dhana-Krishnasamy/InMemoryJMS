@@ -12,5 +12,5 @@ public interface Message extends Cloneable {
 
 	public boolean hasExpired();
 
-	public Message clone();
+	public Message clone(); 
 }
